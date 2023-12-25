@@ -450,9 +450,13 @@ body #cdawrap {
 	    justify-self: end;
 	}
 
+
 }
-
-
+@media screen and (max-width: 420px) {
+	.con {
+		font-size: 15px;
+	}
+}
 button {
 	padding: 15px 40px;
 	color: black;
